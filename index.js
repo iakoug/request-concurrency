@@ -1,5 +1,7 @@
 const wrapper = require('./lib')
 
-const concurrency = 10
+// const concurrency = 10
 
-module.exports = wrapper(fetch, concurrency)
+// const concurrencyFetch = wrapper(fetch, concurrency)
+
+module.exports = wrapper
