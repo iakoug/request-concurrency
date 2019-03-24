@@ -4,8 +4,13 @@
 
 # Getting started
 
+```bash
+npm install request-concurrency
+```
+
+# use
 ```js
-  const setConcurrencyWrapper = require('request-concurrency')
+  const setConcurrencyWrapper = require("request-concurrency")
 
   const concurrency = 10
 
