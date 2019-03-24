@@ -1,12 +1,24 @@
 {
   "name": "request-concurrency",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "Control API concurrency.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": [
+    "fetch",
+    "request",
+    "concurrency"
+  ],
+  "author": "chris kwok",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rollawaypoint/fetch-concurrency/issues"
+  },
+  "homepage": "https://github.com/rollawaypoint/fetch-concurrency",
+  "dependencies": {},
+  "engines": {
+    "node": ">=6.0.0"
+  }
 }
