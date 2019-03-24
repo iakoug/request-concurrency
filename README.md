@@ -5,7 +5,7 @@
 # Getting started
 
 ```js
-  const setConcurrencyWrapper = require('./lib')
+  const setConcurrencyWrapper = require('request-concurrency')
 
   const concurrency = 10
 
