@@ -1,6 +1,6 @@
 {
   "name": "request-concurrency",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Control API concurrency.",
   "main": "index.js",
   "scripts": {
