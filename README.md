@@ -2,14 +2,14 @@
 
 控制调用并发数
 
-#### use
+# Getting started
 
 ```js
-  const wrapper = require('./lib')
+  const setConcurrencyWrapper = require('./lib')
 
   const concurrency = 10
 
   const originRequest = fetch
 
-  const concurrencyFetch = wrapper(originRequest, concurrency)
+  const concurrencyFetch = setConcurrencyWrapper(originRequest, concurrency)
 ```
