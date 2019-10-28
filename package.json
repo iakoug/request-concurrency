@@ -1,8 +1,12 @@
 {
-  "name": "request-concurrency",
+  "name": "@rollawaypoint/request-concurrency",
   "version": "1.0.3",
   "description": "Control API concurrency.",
   "main": "index.js",
+  "repository": "git://github.com/rollawaypoint/request-concurrency.git",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
